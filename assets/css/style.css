@@ -1,0 +1,23 @@
+table, tr, th, td{
+    border: 2px solid black;
+}
+
+table{
+    width: 400px;
+
+}
+
+/*cambiar de inline a block los enlaces  */
+
+.enlace{
+    /* display  */
+    display: block;
+    background-color: blue;
+    color:white;
+}
+
+.bloque{
+    text-align: center;
+  
+    background-color: red;
+}

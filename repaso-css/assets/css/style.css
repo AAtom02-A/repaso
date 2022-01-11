@@ -1,0 +1,48 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Ajustes al menu
+    Aqui se le empieza a dar forma */
+
+.menu{
+    
+    background-color: #e48b8b;
+    height: 50px;
+    /* Centrar elemento en bloque */
+    
+}
+.menu ul{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;/* centra el texto */
+}
+.menu .elemento{
+    display: inline;
+    /* margin: 0; */
+    padding: 0;
+
+}
+.menu .elemento:hover{
+    background-color: yellow;
+}
+.elemento{
+    display: inline-block;
+    margin: 0 20px;
+    /* Utilizacipon de los marquenes */
+    /* margin: superior derecha inferior isquierda; */
+}
+.elemento a{
+    font-size: 20px;
+    color: #ffffff;
+    /* Quitar lo subrayado del menu */
+    text-decoration: none;
+    line-height: 50px;/* Solo se usa para el texto */
+    font-family: 'Bebas Neue', cursive;
+    transition: color 0.9s;/* propiedad que queremos cambiar en la transicion  */
+}
+
+.elemento a:hover{/* se iluminan las letras */
+    color: black
+}

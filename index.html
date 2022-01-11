@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <title>Repaso despues de vacaciones</title>
+</head>
+<body>
+    <h1>Repaso html</h1>
+    <h2 id="formulario">formulario</h2>
+    <form class="formulario">
+<!-- Creacion de formulario -->
+        <fieldset>
+            <legend>Datos</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="INGRESE SU NOMBRE">
+                <!-- placeholder ayuda a mostrar una instruccion en el input -->
+            </div>
+
+            <div>
+                <label for="apellido">Apellidp</label>
+                <input id="apellido" name="apellido" type="text" placeholder="INGRESE SU Apellido">
+                <!-- placeholder ayuda a mostrar una instruccion en el input -->
+            </div>
+
+            <!-- agregar espacio de texto -->
+            <div>
+                <label for="comentario">comentario</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                <!-- cols son columnas 
+                    rows filas -->
+            </div>
+
+            <!-- Se agrega boton  -->
+            <div>
+                <!-- Con este boton de tipo boton, no tiene ninguna funcion. -->
+                <input type="button" value="Enviar"> 
+                <!-- <input type="submit"> 
+                    Boton po defecto, envia y refresca la pag.-->
+            </div>
+
+        </fieldset>
+    </form>
+    <h2>tabla</h2>
+
+    <!-- Creacion de tablas -->
+        <table>
+            <thead>
+                <!-- Atributos -->
+                <!-- colspan -->
+                <!-- rowspan -->
+                <tr><!-- fila -->
+                    <th>Cabeceza</th>
+                    <th>Cabecera</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>
+                        A
+                    </td>
+                    <td>B</td>
+
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+        <tr>
+            <td>
+                Pir
+            </td>
+            <td>
+                Pie
+            </td>
+        </tr>         
+            </tfoot>
+
+        </table>
+        <!-- inline  linea-->
+        <a  class="enlace" target="_blank" href="servicios.html">Enlace</a>
+       <!-- block  en block -->
+        <a class="enlace" target="_blank" href="servicios.html">Enlace2</a>
+
+        <!-- Elemtos en bloque -->
+       <!-- Los elementos en bloque se pueden centrar, los textos 
+        en linea no. -->
+
+        <span class="bloque"> Esto es un span</span>
+        <p class="bloque">Este es un un parrafo</p>
+        <h1 class="bloque">titulo</h1>
+        <h2 class="bloque">subtitulo</h2>
+        <div class="bloque">Esto es un div</div>
+
+        <!-- etiquetas de enlace -->
+        <a href="servicios.html"><button>Hola</button></a>
+        <a href="servicios.html"> <img src="https://www.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg"
+             alt="Paisaje" width="300"></a>
+
+        <!-- ipervinculos -->
+        <a href="#formulario">Ir al formulario</a>
+    </body>
+</html>
